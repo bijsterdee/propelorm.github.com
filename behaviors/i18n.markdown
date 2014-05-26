@@ -34,7 +34,7 @@ Rebuild your model, insert the table creation sql again, and you're ready to go.
 </table>
 <table name="item_i18n">
   <column name="id" type="integer" required="true" primaryKey="true" />
-  <column name="locale" type="varchar" size="5" required="true" primaryKey="true" />
+  <column name="locale" type="varchar" size="6" required="true" primaryKey="true" />
   <column name="name" type="varchar" required="true" />
   <column name="description" type="longvarchar" />
   <foreign-key foreignTable="item" onDelete="setnull" onUpdate="cascade">
